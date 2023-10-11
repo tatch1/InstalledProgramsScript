@@ -1,4 +1,4 @@
-$outputFile = "$env:USERPROFILE\Installed_Applications.txt"
+$outputFile = "$env:DESKTOP\Installed_Applications.txt"
 
 # Define the registry path to the uninstall information
 $keyPath32Bit = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*"
